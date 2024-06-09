@@ -1,0 +1,22 @@
+Hotel
+    - Hospede / Cliente
+        - Nome
+        - Telefone
+        - Cpf
+    - Quarto
+        - Numero
+        - Tipo: Individual / Duplo / Casal
+        - Valor Diaria
+    - Reserva 
+        - Hospede / Cliente
+        - Quarto / Quartos
+        - Data Inicio
+        - Data Saida
+        - Valor Total
+    - Serviços
+	    - Nome
+        - Descrição
+        - Valor
+
+
+tsc -w
